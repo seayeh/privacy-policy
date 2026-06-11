@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="智能查房 App 技术支持 — 开发者叶海波">
+  <link rel="canonical" href="https://seayeh.github.io/privacy-policy/support.html">
+  <title>智能查房 技术支持</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1c1c1e;
+      --secondary: #636366;
+      --bg: #ffffff;
+      --card: #f2f2f7;
+      --accent: #007aff;
+      --border: #d1d1d6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f2f2f7;
+        --secondary: #aeaeb2;
+        --bg: #000000;
+        --card: #1c1c1e;
+        --accent: #0a84ff;
+        --border: #38383a;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+      -webkit-text-size-adjust: 100%;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px 20px 48px;
+    }
+    h1 {
+      font-size: 1.75rem;
+      line-height: 1.25;
+      margin: 0 0 8px;
+    }
+    .meta {
+      color: var(--secondary);
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin: 32px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    p, li { margin: 0 0 10px; }
+    ul, ol { padding-left: 1.25rem; margin: 0 0 12px; }
+    a { color: var(--accent); word-break: break-all; }
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin: 12px 0;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      color: var(--secondary);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>智能查房 技术支持</h1>
+    <p class="meta">
+      Smart Ward Round (SmartWardRound)<br>
+      开发者：叶海波<br>
+      最后更新：2026-06-12
+    </p>
+
+    <div class="card">
+      <p><strong>本应用</strong>是一款面向医疗从业者的住院查房与病历书写辅助工具。患者与查房数据默认仅保存在您的设备上；AI 功能需您自行配置第三方大模型 API Key。</p>
+    </div>
+
+    <h2>联系我们</h2>
+    <ul>
+      <li>技术支持邮箱：<a href="mailto:m1568_mbtqqsozoz@aka.yeah.net">m1568_mbtqqsozoz@aka.yeah.net</a></li>
+    </ul>
+    <p>请在邮件中说明设备型号、iOS/iPadOS 版本、应用版本号，并尽量描述问题步骤。我们通常会在几个工作日内回复。</p>
+
+    <h2>常见问题</h2>
+
+    <h3>如何配置 AI 功能？</h3>
+    <p>打开应用 → <strong>设置 → AI Key 管理</strong>，选择服务商（DeepSeek、阿里云百炼、讯飞星火、智谱 GLM 等），填写 Endpoint、Model 与 API Key 并保存。首次向第三方发送数据前，应用会弹出数据共享说明并要求您明确同意。</p>
+
+    <h3>如何创建或删除账号？</h3>
+    <ul>
+      <li><strong>创建账号</strong>：首页右上角添加账号，或在「设置 → 个人账号管理」中编辑并保存工号、姓名与密码。</li>
+      <li><strong>删除账号</strong>：「设置 → 删除账号」（或「设置 → 个人账号管理 → 删除账号与本地资料」），按提示通过面容 ID / 触控 ID 或设备密码确认。此操作清除本机账号资料与密码，<strong>不会自动删除</strong>已保存的患者与查房记录。</li>
+      <li><strong>删除全部患者数据</strong>：首页在院患者列表右上角垃圾桶按钮（需设备验证）。</li>
+    </ul>
+
+    <h3>数据存在哪里？会上传到开发者服务器吗？</h3>
+    <p>病历与查房数据默认仅存本机，开发者不提供云端病历库。仅在您主动使用 AI、文献检索或「发送到电脑」等功能时，才可能将经脱敏的内容发送至您配置的第三方服务或局域网电脑。详见<a href="https://seayeh.github.io/privacy-policy/">隐私政策</a>。</p>
+
+    <h3>应用无法使用 AI / 连接测试失败？</h3>
+    <ul>
+      <li>确认已在 AI Key 管理中保存有效 API Key，且 Endpoint 与 Model 与服务商控制台一致。</li>
+      <li>确认设备可访问互联网，且未被机构网络拦截 HTTPS。</li>
+      <li>若更换服务商或 Endpoint，需重新确认第三方 AI 数据共享同意。</li>
+    </ul>
+
+    <h3>医疗免责</h3>
+    <p>本应用为书写辅助工具，不提供诊断、处方或急诊服务。AI 生成内容仅供参考，须由执业医师审核后再记入病历。出现危急病情请立即就医。</p>
+
+    <h2>相关链接</h2>
+    <ul>
+      <li><a href="https://seayeh.github.io/privacy-policy/">隐私政策</a></li>
+      <li>App Store 产品页：搜索「智能查房」或 SmartWardRound</li>
+    </ul>
+
+    <footer>
+      <p>智能查房 · 开发者：叶海波</p>
+      <p>技术支持页面 · 最后更新：2026-06-12</p>
+    </footer>
+  </div>
+</body>
+</html>
